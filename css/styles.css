@@ -37,10 +37,10 @@ header {
 	align-items: center;
 	padding: 0.4rem 12rem;
 }
-header .leftheader {
+header .left-header {
 	flex: 1;
 }
-header div.rightheader {
+header .right-header {
 	display: flex;
 	flex: 2;
 	flex-flow: column nowrap;
@@ -51,12 +51,12 @@ a img {
 	display: block;
 	margin: 0 auto;
 }
-div.rightheader h1 {
+.right-header h1 {
 	font-size: 3rem;
 	color: #da0090;
 	margin: 0;
 }
-div.rightheader p {
+.right-header p {
 	margin: -0.32rem 0;
 }
 /* NAV */
@@ -94,15 +94,14 @@ main {
 main article {
 	display: flex;
 	flex-flow: row nowrap;
-
 	padding: 2.2rem 0;
 }
-article section.left-section {
+article .left-section {
 	flex: 1;
 }
-article section.right-section {
+article .right-section {
 	flex: 4;
-	padding: 0 1rem;
+	padding: 0 1.5rem;
 }
 section img {
 	border-radius: 10%;
@@ -113,7 +112,7 @@ footer {
 	text-align: center;
 	font-size: 0.8rem;
 	border-top: 2px solid #da0090;
-	padding: 1rem 0 2.5rem 0;
+	padding: 1rem 0;
 }
 footer p {
 	font-size: 0.875rem;
@@ -126,10 +125,9 @@ footer ul {
 	list-style-type: none;
 	margin-right: 2.2rem;
 }
-footer ul li {
+footer li {
 	margin: 0 0.15rem;
 }
-
 /* CLASSES */
 .wrapper {
 	width: 85vw;
